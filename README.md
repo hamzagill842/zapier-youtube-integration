@@ -89,7 +89,7 @@ To get started with the project, follow these steps:
     $host = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "calendar";
+    $dbname = "youtube";
 
     // Create connection
     $conn = new mysqli($host, $username, $password, $dbname);
@@ -110,7 +110,7 @@ To get started with the project, follow these steps:
     ```
 
 5. **Import Database Schema:**
-   - Import the `database.mysql` file into your MySQL database after creating it.
+   - Import the `database.sql` file into your MySQL database after creating it.
 
 ## PHP Version Compatibility:
 
