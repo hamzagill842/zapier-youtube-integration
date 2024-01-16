@@ -9,7 +9,7 @@ include_once 'config.php';
 // Create the Google Sheets service
 $clientID = GOOGLE_Client_ID;
 $clientSecret = GOOGLE_Client_SERECT;
-$redirectUri = GOOGLE_REDIRECT_URI.'/youtube/googleRedirect.php';  // Redirect URI configured in Google Cloud Console
+$redirectUri = GOOGLE_REDIRECT_URI.'/zapier-youtube-integration/googleRedirect.php';  // Redirect URI configured in Google Cloud Console
 
 // Create the Google Sheets service
 $client = new Google_Client();
